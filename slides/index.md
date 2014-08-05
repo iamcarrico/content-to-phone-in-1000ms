@@ -1,6 +1,6 @@
 # Tips and Tricks with
 
-<img src="../images/sass.svg" alt="Sass" class="sass-logo">
+<img src="http://iamcarrico.github.io/tips-tricks-with-sass/images/sass.svg" alt="Sass" class="sass-logo">
 
 Note:
 Lets be honest, ruby is hard. It breaks, it has weird errors, it requires specific versions of its gems, and just makes me want to scream. And that makes using Sass even more difficult. How can we get our frontend developers using this amazing tool? Once we have it running, what are the best practices to ensure our code is DRY as possible?
