@@ -110,7 +110,7 @@ body {
 .reveal h1 a, .reveal h2 a, .reveal h3 a, .reveal h4 a, .reveal h5 a {
   background-position: 0 0.825em !important;
 }
-.reveal h1 {
+.reveal h1, .reveal h2 {
   margin-bottom: .25em;
 }
 .reveal pre {
@@ -120,6 +120,9 @@ body {
   box-shadow: none;
   font-size: .55em;
 }
+.reveal p {
+  margin-bottom: .75em;
+}
 .reveal .sass-logo {
   max-width: 60%;
   max-height: 60%;
@@ -128,26 +131,72 @@ body {
 .intro .reveal .controls div.navigate-left {
   border-right-color: white;
 }
+.gulp .reveal .controls div.navigate-left {
+  border-right-color: black;
+}
+.bundler .reveal .controls div.navigate-left {
+  border-right-color: black;
+}
 .intro .reveal .controls div.navigate-right {
   border-left-color: white;
+}
+.gulp .reveal .controls div.navigate-right {
+  border-left-color: black;
+}
+.bundler .reveal .controls div.navigate-right {
+  border-left-color: black;
 }
 .intro .reveal .controls div.navigate-up {
   border-bottom-color: white;
 }
+.gulp .reveal .controls div.navigate-up {
+  border-bottom-color: black;
+}
+.bundler .reveal .controls div.navigate-up {
+  border-bottom-color: black;
+}
 .intro .reveal .controls div.navigate-down {
   border-top-color: white;
 }
+.gulp .reveal .controls div.navigate-down {
+  border-top-color: black;
+}
+.bundler .reveal .controls div.navigate-down {
+  border-top-color: black;
+}
 
-.sassy {
-  color: white;
+.alert .reveal .state-background {
+  background: #c8321e;
+}
+.intro .state-background {
+  background: black;
 }
 .sassy .state-background {
   background: #c69;
 }
+.rbenv .state-background {
+  background: #2f2f2f;
+}
+.bundler .state-background {
+  background: #c6e7ec;
+}
+.gulp .state-background {
+  background: white;
+}
+.who .state-background {
+  background: #0084B4;
+}
 
-.intro {
+[data-state="sassy"],
+[data-state="rbenv"],
+[data-state="intro"] {
   color: white;
 }
-.intro .state-background {
-  background: black;
+
+.reveal .twitter-peeps {
+  display: inline-block;
+  padding: 0 .4em 1em;
+}
+.reveal .twitter-peeps a {
+  display: block;
 }

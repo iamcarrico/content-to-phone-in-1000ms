@@ -9,15 +9,200 @@
     {
       "filename": "intro/whoami.md",
       "attr": {
-        "data-state": "intro",
+        "data-state": "sassy",
         "id": "who"
       }
     },
     {
       "filename": "intro/is.md",
       "attr": {
-        "data-state": "intro",
+        "data-state": "sassy",
         "id": "is"
+      }
+    }
+  ],
+  [
+    {
+      "filename": "rbenv/rbenv.md",
+      "attr": {
+          "data-state": "rbenv",
+          "id": "rbenv"
+      }
+    },
+    {
+      "filename": "rbenv/what.md",
+      "attr": {
+          "data-state": "rbenv",
+          "id": "what-is-rbenv"
+      }
+    },
+    {
+      "filename": "rbenv/installation.md",
+      "attr": {
+          "data-state": "rbenv",
+          "id": "rbenv-installation"
+      }
+    },
+    {
+      "filename": "rbenv/usage.md",
+      "attr": {
+          "data-state": "rbenv",
+          "id": "rbenv-installation"
+      }
+    }
+  ],
+  [
+    {
+      "filename": "bundler/bundler.md",
+      "attr": {
+          "data-state": "bundler",
+          "id": "bundler"
+      }
+    },
+    {
+      "filename": "bundler/what.md",
+      "attr": {
+          "data-state": "bundler",
+          "id": "what-is-bundler"
+      }
+    },
+    {
+      "filename": "bundler/installation.md",
+      "attr": {
+          "data-state": "bundler",
+          "id": "install-bundler"
+      }
+    },
+    {
+      "filename": "bundler/gemfile.md",
+      "attr": {
+          "data-state": "bundler",
+          "id": "gemfile"
+      }
+    },
+    {
+      "filename": "bundler/gemfile-example.md",
+      "attr": {
+          "data-state": "bundler",
+          "id": "gemfile-example"
+      }
+    },
+    {
+      "filename": "bundler/install.md",
+      "attr": {
+          "data-state": "bundler",
+          "id": "bundle-install"
+      }
+    },
+    {
+      "filename": "bundler/sudo.md",
+      "attr": {
+          "data-state": "alert",
+          "id": "sudo-bundle-install"
+      }
+    },
+    {
+      "filename": "bundler/exec.md",
+      "attr": {
+          "data-state": "bundler",
+          "id": "bundle-exec"
+      }
+    }
+  ],
+  [
+    {
+      "filename": "gulp/gulp.md",
+      "attr": {
+          "data-state": "gulp",
+          "id": "gulpjs"
+      }
+    },
+    {
+      "filename": "gulp/what.md",
+      "attr": {
+          "data-state": "gulp",
+          "id": "what-is-gulpjs"
+      }
+    },
+    {
+      "filename": "gulp/installation.md",
+      "attr": {
+          "data-state": "gulp",
+          "id": "install-gulpjs"
+      }
+    },
+    {
+      "filename": "gulp/gulpfile.md",
+      "attr": {
+          "data-state": "gulp",
+          "id": "gulpfile"
+      }
+    },
+    {
+      "filename": "gulp/how.md",
+      "attr": {
+          "data-state": "gulp",
+          "id": "how-to-gulp"
+      }
+    },
+    {
+      "filename": "gulp/power.md",
+      "attr": {
+          "data-state": "gulp",
+          "id": "power-of-gulp"
+      }
+    }
+  ],
+  [
+    {
+      "filename": "who/makers.md",
+      "attr": {
+          "data-state": "who",
+          "id": "makers"
+      }
+    },
+    {
+      "filename": "who/follow.md",
+      "attr": {
+          "data-state": "who",
+          "id": "follow"
+      }
+    },
+    {
+      "filename": "who/books.md",
+      "attr": {
+          "data-state": "who",
+          "id": "books"
+      }
+    },
+    {
+      "filename": "who/meetups.md",
+      "attr": {
+          "data-state": "who",
+          "id": "meetups"
+      }
+    }
+  ],
+  [
+    {
+      "filename": "wrap-up/questions.md",
+      "attr": {
+          "data-state": "wrap-up",
+          "id": "questions"
+      }
+    },
+    {
+      "filename": "wrap-up/slides.md",
+      "attr": {
+          "data-state": "wrap-up",
+          "id": "slides"
+      }
+    },
+    {
+      "filename": "wrap-up/thank-you.md",
+      "attr": {
+          "data-state": "wrap-up",
+          "id": "thank-you"
       }
     }
   ]

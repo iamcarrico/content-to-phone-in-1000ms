@@ -1,5 +1,5 @@
 ## What is this about?
 
-* Building things with Sass better
-* Doing some Awesome work
-* Why Sass is the most bestest
+* Tools need to make a better Sass Workflow
+* Gotcha's with using Sass
+* Where to find more information
