@@ -1,6 +1,8 @@
 # Sass Meetups
 
-Follow [@SassMeetup](https://twitter.com/SassMeetup) for all meetup annoucements, and to find one near you.
+<div class="twitter-peeps">  ![Sass Meetups](http://iamcarrico.github.io/tips-tricks-with-sass/images/twitters/SassMeetup.png)
+  [@SassMeetup](https://twitter.com/SassMeetup)
+</div>
 
 <div class="twitter-peeps">  ![SassConf](http://iamcarrico.github.io/tips-tricks-with-sass/images/twitters/sassconf.png)
   [@sassconf](https://twitter.com/sassconf)
