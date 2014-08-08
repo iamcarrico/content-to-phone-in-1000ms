@@ -129,6 +129,10 @@ body {
   max-width: 60%;
   max-height: 60%;
 }
+.reveal .slides-link {
+  font-size: 2.5em;
+  margin-top: .5em;
+}
 
 .intro .reveal .controls div.navigate-left {
   border-right-color: white;

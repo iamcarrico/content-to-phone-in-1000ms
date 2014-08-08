@@ -1,7 +1,3 @@
-# Slides can be found at:
+# Slides
 
-http://iamcarrico.github.io/tips-tricks-with-sass/
-
-or
-
-http://iamc.co/tcdc-sass
+<div class="slides-link">[iamc.co/tcdc-sass](http://iamc.co/tcdc-sass)</div>
