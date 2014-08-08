@@ -5,6 +5,8 @@
  */
 @import url(http://iamcarrico.github.io/fonts/pt.css);
 @import url(http://iamcarrico.github.io/fonts/newcicle.css);
+@import url(http://snugug.github.io/fonts/north.css);
+@import url(http://snugug.github.io/fonts/homestead-subset.css);
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -101,7 +103,7 @@ body {
   color: inherit;
   text-decoration: none;
 }
-.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5 {
+.reveal h1:not(.north), .reveal h2:not(.north), .reveal h3:not(.north), .reveal h4:not(.north), .reveal h5:not(.north) {
   font-family: "New Cicle", Arial, sans-serif;
   letter-spacing: .1em;
   text-transform: uppercase;
@@ -137,6 +139,9 @@ body {
 .bundler .reveal .controls div.navigate-left {
   border-right-color: black;
 }
+.north .reveal .controls div.navigate-left {
+  border-right-color: #061b25;
+}
 .intro .reveal .controls div.navigate-right {
   border-left-color: white;
 }
@@ -145,6 +150,9 @@ body {
 }
 .bundler .reveal .controls div.navigate-right {
   border-left-color: black;
+}
+.north .reveal .controls div.navigate-right {
+  border-left-color: #061b25;
 }
 .intro .reveal .controls div.navigate-up {
   border-bottom-color: white;
@@ -155,6 +163,9 @@ body {
 .bundler .reveal .controls div.navigate-up {
   border-bottom-color: black;
 }
+.north .reveal .controls div.navigate-up {
+  border-bottom-color: #061b25;
+}
 .intro .reveal .controls div.navigate-down {
   border-top-color: white;
 }
@@ -163,6 +174,9 @@ body {
 }
 .bundler .reveal .controls div.navigate-down {
   border-top-color: black;
+}
+.north .reveal .controls div.navigate-down {
+  border-top-color: #061b25;
 }
 
 .alert .reveal .state-background {
@@ -183,6 +197,12 @@ body {
 .gulp .state-background {
   background: white;
 }
+.gotchas .state-background {
+  background: #fede32;
+}
+.north .state-background {
+  background: #f7fafc;
+}
 .who .state-background {
   background: #0084B4;
 }
@@ -199,4 +219,57 @@ body {
 }
 .reveal .twitter-peeps a {
   display: block;
+}
+
+.reveal .north--logo, .reveal .north--wordmark {
+  -webkit-font-feature-settings: "liga","dlig";
+  -moz-font-feature-settings: "liga=1, dlig=1";
+  -moz-font-feature-settings: "liga","dlig";
+  -ms-font-feature-settings: "liga","dlig";
+  -o-font-feature-settings: "liga","dlig";
+  font-feature-settings: "liga","dlig";
+  color: #11517d;
+  font-family: 'north';
+  text-transform: lowercase;
+  display: inline-block;
+  border: none;
+}
+.north {
+  color: #061b25;
+}
+.reveal .north--title {
+  font-size: 7em;
+}
+.reveal .north--logo {
+  padding-right: .16em;
+  -ms-transform: translateY(0.1194em);
+  -webkit-transform: translateY(0.1194em);
+  transform: translateY(0.1194em);
+}
+.reveal .north--wordmark {
+  font-size: .75em;
+  color: #5ea9d0;
+  text-transform: uppercase;
+  position: relative;
+  text-align: left;
+  display: inline-block;
+  font-family: 'homestead-one', 'homestead-regular';
+}
+.reveal .north--wordmark:before {
+  content: 'north';
+  text-transform: uppercase;
+  font-family: 'homestead-two', 'homestead-regular';
+  color: #559abe;
+  position: absolute;
+  left: 0;
+  top: -0.065em;
+}
+.reveal .north--wordmark:after {
+  content: 'north';
+  text-transform: uppercase;
+  font-family: 'homestead-three', 'homestead-regular';
+  color: #6db1d4;
+  position: absolute;
+  left: 0;
+  top: 0;
 }

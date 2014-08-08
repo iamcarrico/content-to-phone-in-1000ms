@@ -5,7 +5,7 @@ source 'http://rubygems.org'
 ruby '2.0.0'
 
 gem 'sass', '~>3.3.0'
-gem 'compass', '~>1.0.0.alpha.21'
+gem 'compass', '~>1.0.0.rc.1'
 gem 'toolkit', '~>2.3'
 gem 'breakpoint', '~>2.4'
 ```

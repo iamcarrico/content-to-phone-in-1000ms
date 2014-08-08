@@ -21,6 +21,10 @@
 </div>
 
 <div class="twitter-peeps">
-  ![Eric](http://iamcarrico.github.io/tips-tricks-with-sass/images/twitters/ericmsuzanne.png)
+  ![Hugo Giraudel](http://iamcarrico.github.io/tips-tricks-with-sass/images/twitters/HugoGiraudel.png)
+  [@HugoGiraudel](https://twitter.com/HugoGiraudel)
+</div>
+
+<div class="twitter-peeps">  ![Eric](http://iamcarrico.github.io/tips-tricks-with-sass/images/twitters/ericmsuzanne.png)
   [@ericmsuzanne](https://twitter.com/ericmsuzanne)
 </div>

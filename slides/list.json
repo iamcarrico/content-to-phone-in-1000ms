@@ -155,6 +155,50 @@
   ],
   [
     {
+      "filename": "gotchas/gotchas.md",
+      "attr": {
+          "data-state": "gotchas",
+          "id": "gotchas"
+      }
+    },
+    {
+      "filename": "gotchas/nesting.md",
+      "attr": {
+          "data-state": "gotchas",
+          "id": "nesting"
+      }
+    },
+    {
+      "filename": "gotchas/mixins.md",
+      "attr": {
+          "data-state": "gotchas",
+          "id": "mixins"
+      }
+    },
+    {
+      "filename": "gotchas/extends.md",
+      "attr": {
+          "data-state": "gotchas",
+          "id": "extends"
+      }
+    },
+    {
+      "filename": "gotchas/libsass.md",
+      "attr": {
+          "data-state": "gotchas",
+          "id": "libsass"
+      }
+    },
+    {
+      "filename": "gotchas/north.html",
+      "attr": {
+          "data-state": "north",
+          "id": "north"
+      }
+    }
+  ],
+  [
+    {
       "filename": "who/makers.md",
       "attr": {
           "data-state": "who",
@@ -162,10 +206,10 @@
       }
     },
     {
-      "filename": "who/follow.md",
+      "filename": "who/talkers.md",
       "attr": {
           "data-state": "who",
-          "id": "follow"
+          "id": "talkers"
       }
     },
     {
