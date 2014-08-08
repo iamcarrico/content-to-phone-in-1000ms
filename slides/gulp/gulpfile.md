@@ -23,3 +23,5 @@ gulp.task('sass', function() {
     .pipe(gulp.dest(paths.css));
 });
 ```
+
+Note: Gulp can do so much, and has the power of Node.js behind it. It is very simple to do a lot of really complex work. For a sample Gulpfile--- check out https://github.com/una/ATXSass/blob/master/gulpfile.js

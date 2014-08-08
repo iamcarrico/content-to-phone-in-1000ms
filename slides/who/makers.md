@@ -28,3 +28,5 @@
 <div class="twitter-peeps">  ![Eric](http://iamcarrico.github.io/tips-tricks-with-sass/images/twitters/ericmsuzanne.png)
   [@ericmsuzanne](https://twitter.com/ericmsuzanne)
 </div>
+
+Note: This is not a complete list, and the community is growing everyday. 

@@ -23,3 +23,5 @@
 <div class="twitter-peeps">  ![Sass News Weekly](http://iamcarrico.github.io/tips-tricks-with-sass/images/twitters/SassNews.png)
   [@SassNews](https://twitter.com/SassNews)
 </div>
+
+Note: Again, this is not a complete list--- and many of these people are also making awesome, Sass-y things. These are just people I have met that I can atest are awesome.
