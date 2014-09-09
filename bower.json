@@ -1,0 +1,7 @@
+{
+  "name": "content-to-phone-in-1000ms",
+  "version": "1.0.0",
+  "dependencies": {
+    "reveal.js": "~2.6.1"
+  }
+}

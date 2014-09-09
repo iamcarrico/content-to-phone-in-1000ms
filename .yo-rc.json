@@ -1,0 +1,10 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "Getting Content to a Phone in 1000ms",
+    "packageVersion": "1.0.0",
+    "useSass": true,
+    "deployToGithubPages": true,
+    "githubUsername": "iamcarrico",
+    "githubRepository": "content-to-phone-in-1000ms"
+  }
+}
