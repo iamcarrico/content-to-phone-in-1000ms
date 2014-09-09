@@ -23,10 +23,57 @@
   ],
   [
     {
+      "filename": "guidelines/guidelines.md",
+      "attr": {
+          "data-state": "guidelines"
+      }
+    }
+  ],
+  [
+    {
+      "filename": "testing/testing.md",
+      "attr": {
+          "data-state": "testing"
+      }
+    }
+  ],
+  [
+    {
+      "filename": "render/render.md",
+      "attr": {
+          "data-state": "render"
+      }
+    }
+  ],
+  [
+    {
+      "filename": "tcp/tcp.md",
+      "attr": {
+          "data-state": "tcp"
+      }
+    }
+  ],
+  [
+    {
+      "filename": "spdy/spdy.md",
+      "attr": {
+          "data-state": "spdy"
+      }
+    }
+  ],
+  [
+    {
       "filename": "wrap-up/questions.md",
       "attr": {
           "data-state": "wrap-up",
           "id": "questions"
+      }
+    },
+    {
+      "filename": "wrap-up/ilya.md",
+      "attr": {
+          "data-state": "wrap-up",
+          "id": "ilya"
       }
     },
     {
