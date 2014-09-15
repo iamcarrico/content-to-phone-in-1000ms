@@ -23,9 +23,18 @@
   ],
   [
     {
+      "filename": "guidelines/rule.md",
+      "attr": {
+          "data-state": "guidelines",
+          "id": "rule1"
+      }
+    },
+    {
       "filename": "guidelines/guidelines.md",
       "attr": {
-          "data-state": "guidelines"
+          "data-state": "pirates",
+          "data-background": "/images/pirates-of-carribean.jpg",
+          "id": "pirates"
       }
     }
   ],
@@ -33,7 +42,23 @@
     {
       "filename": "testing/testing.md",
       "attr": {
-          "data-state": "testing"
+          "data-state": "testing",
+          "data-background": "/images/star-trek.jpg",
+          "id": "testing"
+      }
+    },
+    {
+      "filename": "testing/tools.md",
+      "attr": {
+          "data-state": "testing",
+          "id": "testing-tools"
+      }
+    },
+    {
+      "filename": "testing/rupl.md",
+      "attr": {
+          "data-state": "testing",
+          "id": "rupl"
       }
     }
   ],
@@ -41,7 +66,8 @@
     {
       "filename": "render/render.md",
       "attr": {
-          "data-state": "render"
+          "data-state": "render",
+          "id": "render"
       }
     }
   ],
@@ -49,7 +75,8 @@
     {
       "filename": "tcp/tcp.md",
       "attr": {
-          "data-state": "tcp"
+          "data-state": "tcp",
+          "id": "tcp"
       }
     }
   ],
@@ -57,7 +84,8 @@
     {
       "filename": "spdy/spdy.md",
       "attr": {
-          "data-state": "spdy"
+          "data-state": "spdy",
+          "id": "spdy"
       }
     }
   ],

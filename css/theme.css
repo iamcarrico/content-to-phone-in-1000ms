@@ -208,6 +208,7 @@ body {
 [data-state="sassy"],
 [data-state="rbenv"],
 [data-state="intro"],
-[data-state="alert"] {
+[data-state="alert"],
+[data-state="pirates"] {
   color: white;
 }

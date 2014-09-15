@@ -153,6 +153,11 @@ body {
     background: rgba(200, 50, 30, 1);
   }
 
+  .pirates & {
+    //background-image: image-url('pirates-of-carribean.jpg');
+    //background-size: contain;
+  }
+
   .intro & {
     background: black;
   }
@@ -184,11 +189,14 @@ body {
   .who & {
     background: #0084B4; // Twitters
   }
+
+
 }
 
 [data-state="sassy"],
 [data-state="rbenv"],
 [data-state="intro"],
-[data-state="alert"] {
+[data-state="alert"],
+[data-state="pirates"] {
   color: white;
 }
