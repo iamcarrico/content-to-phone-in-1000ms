@@ -127,6 +127,14 @@ body {
   font-size: 2.5em;
   margin-top: .5em;
 }
+.reveal .attribution {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  color: white;
+  font-size: 14px;
+  background: rgba(0, 0, 0, 0.7);
+}
 
 .intro .reveal .controls div.navigate-left {
   border-right-color: white;

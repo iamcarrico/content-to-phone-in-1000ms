@@ -69,6 +69,21 @@
           "data-state": "render",
           "id": "render"
       }
+    },
+    {
+      "filename": "render/pass.md",
+      "attr": {
+          "data-state": "gandalf",
+          "data-background": "/images/lotr.jpg",
+          "id": "gandalf"
+      }
+    },
+    {
+      "filename": "render/javascript.md",
+      "attr": {
+          "data-state": "render",
+          "id": "javascript"
+      }
     }
   ],
   [
