@@ -47,6 +47,10 @@ $browser-minimum-versions: (
 $newcicle: 'New Cicle', Arial, sans-serif;
 $pt: 'pt', Helvetica, Arial, sans-serif;
 
+.clearfix {
+  @include clearfix;
+}
+
 
 body {
   background-color: #97e52d;
@@ -120,12 +124,10 @@ body {
   }
 
   .attribution {
-    position: fixed;
-    left: 0;
-    bottom: 0;
     color: white;
-    font-size: 14px;
-    background: rgba(0,0,0,0.7);
+    font-size: 0.4em;
+    background: rgba(0, 0, 0, 0.7);
+    margin-top: 31em;
   }
 }
 
@@ -162,11 +164,6 @@ body {
     background: rgba(200, 50, 30, 1);
   }
 
-  .pirates & {
-    //background-image: image-url('pirates-of-carribean.jpg');
-    //background-size: contain;
-  }
-
   .intro & {
     background: black;
   }
@@ -198,14 +195,96 @@ body {
   .who & {
     background: #0084B4; // Twitters
   }
-
-
 }
 
 [data-state="sassy"],
 [data-state="rbenv"],
 [data-state="intro"],
-[data-state="alert"],
-[data-state="pirates"] {
+[data-state="alert"]{
   color: white;
+}
+
+//// Pirates slide
+#pirates {
+  h2 {
+    color: white;
+    margin-top: 4.3em;
+    font-size: 1.9em;
+    background: rgba(0,0,0,0.5);
+    padding: .3em;
+  }
+}
+
+#testing {
+  h2 {
+    color: white;
+    margin-top: 2.9em;
+
+    @media (min-width: 1100px) {
+      margin-top: 3.4px;
+    }
+  }
+}
+
+#houston {
+  h2 {
+    color: white;
+    font-size: 1.7em;
+    margin-top: 4.4em;
+    background-color: rgba(0,0,0,.6);
+    padding: .3em;
+
+    @media (min-width: 1032px) {
+      margin-top: 5.4em;
+
+      @media (min-height: 722px) {
+        margin-top: 6.5em;
+      }
+    }
+  }
+}
+
+
+$roundtrip-background: white;
+$roundtrip-column: black;
+$roundtrip-row: grey;
+$roundtrip-first-col: grey;
+$roundtrip-first-row: red;
+
+// Special roundtrip section.
+.reveal .roundtrip {
+  font-size: 85%;
+
+  .row {
+    background-color: $roundtrip-background;
+    height: 1/6 * 100%;
+    border: {
+      bottom: 1px $roundtrip-row solid;
+      left: 1px $roundtrip-column solid;
+      right: 1px $roundtrip-column solid;
+    }
+
+    &:first-child {
+      background-color: $roundtrip-first-row;
+    }
+
+    &:last-child {
+      color: green;
+      background-color: lighten($roundtrip-first-col, 20%) !important;
+    }
+  }
+
+  .column {
+    width: 25%;
+    float: left;
+
+    &:first-child .row {
+      background-color: $roundtrip-first-col;
+
+      &:first-child {
+        background-color: transparent;
+        border: 0px solid;
+      }
+    }
+  }
 }

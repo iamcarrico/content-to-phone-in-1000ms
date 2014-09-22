@@ -72,6 +72,12 @@ img, video {
   height: auto;
 }
 
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 body {
   background-color: #97e52d;
   font-family: "pt", Helvetica, Arial, sans-serif;
@@ -128,12 +134,10 @@ body {
   margin-top: .5em;
 }
 .reveal .attribution {
-  position: fixed;
-  left: 0;
-  bottom: 0;
   color: white;
-  font-size: 14px;
+  font-size: 0.4em;
   background: rgba(0, 0, 0, 0.7);
+  margin-top: 31em;
 }
 
 .intro .reveal .controls div.navigate-left {
@@ -216,7 +220,71 @@ body {
 [data-state="sassy"],
 [data-state="rbenv"],
 [data-state="intro"],
-[data-state="alert"],
-[data-state="pirates"] {
+[data-state="alert"] {
   color: white;
+}
+
+#pirates h2 {
+  color: white;
+  margin-top: 4.3em;
+  font-size: 1.9em;
+  background: rgba(0, 0, 0, 0.5);
+  padding: .3em;
+}
+
+#testing h2 {
+  color: white;
+  margin-top: 2.9em;
+}
+@media (min-width: 1100px) {
+  #testing h2 {
+    margin-top: 3.4px;
+  }
+}
+
+#houston h2 {
+  color: white;
+  font-size: 1.7em;
+  margin-top: 4.4em;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: .3em;
+}
+@media (min-width: 1032px) {
+  #houston h2 {
+    margin-top: 5.4em;
+  }
+}
+@media (min-width: 1032px) and (min-height: 722px) {
+  #houston h2 {
+    margin-top: 6.5em;
+  }
+}
+
+.reveal .roundtrip {
+  font-size: 85%;
+}
+.reveal .roundtrip .row {
+  background-color: white;
+  height: 16.66667%;
+  border-bottom: 1px grey solid;
+  border-left: 1px black solid;
+  border-right: 1px black solid;
+}
+.reveal .roundtrip .row:first-child {
+  background-color: red;
+}
+.reveal .roundtrip .row:last-child {
+  color: green;
+  background-color: #b3b3b3 !important;
+}
+.reveal .roundtrip .column {
+  width: 25%;
+  float: left;
+}
+.reveal .roundtrip .column:first-child .row {
+  background-color: grey;
+}
+.reveal .roundtrip .column:first-child .row:first-child {
+  background-color: transparent;
+  border: 0px solid;
 }

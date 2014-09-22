@@ -79,10 +79,24 @@
       }
     },
     {
+      "filename": "render/pipeline.md",
+      "attr": {
+          "data-state": "render",
+          "id": "pipeline"
+      }
+    },
+    {
       "filename": "render/javascript.md",
       "attr": {
           "data-state": "render",
           "id": "javascript"
+      }
+    },
+    {
+      "filename": "render/css.md",
+      "attr": {
+          "data-state": "render",
+          "id": "css"
       }
     }
   ],
@@ -93,6 +107,49 @@
           "data-state": "tcp",
           "id": "tcp"
       }
+    },
+    {
+      "filename": "tcp/houston.md",
+      "attr": {
+          "data-state": "tcp",
+          "data-background": "/images/apollo13.jpg",
+          "id": "houston"
+      }
+    },
+    {
+      "filename": "tcp/latency.md",
+      "attr": {
+          "data-state": "tcp",
+          "id": "latency"
+      }
+    },
+    {
+      "filename": "tcp/roundtrip.md",
+      "attr": {
+          "data-state": "tcp",
+          "id": "roundtrip"
+      }
+    },
+    {
+      "filename": "tcp/cdn.md",
+      "attr": {
+          "data-state": "tcp",
+          "id": "cdn"
+      }
+    },
+    {
+      "filename": "tcp/firstpacket.md",
+      "attr": {
+          "data-state": "tcp",
+          "id": "firstpacket"
+      }
+    },
+    {
+      "filename": "tcp/tricks.md",
+      "attr": {
+          "data-state": "tcp",
+          "id": "tricks"
+      }
     }
   ],
   [
@@ -101,6 +158,43 @@
       "attr": {
           "data-state": "spdy",
           "id": "spdy"
+      }
+    },
+    {
+      "filename": "spdy/what.md",
+      "attr": {
+          "data-state": "spdy",
+          "id": "whatisspdy"
+      }
+    },
+    {
+      "filename": "spdy/tricks.md",
+      "attr": {
+          "data-state": "spdy",
+          "id": "tricks2pointOH"
+      }
+    }
+  ],
+  [
+    {
+      "filename": "casestudy/casestudy.md",
+      "attr": {
+          "data-state": "casestudy",
+          "id": "casestudy"
+      }
+    },
+    {
+      "filename": "casestudy/whatdo.md",
+      "attr": {
+          "data-state": "casestudy",
+          "id": "whatdo"
+      }
+    },
+    {
+      "filename": "casestudy/results.md",
+      "attr": {
+          "data-state": "casestudy",
+          "id": "results"
       }
     }
   ],
