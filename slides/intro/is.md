@@ -2,7 +2,7 @@
 
 * What effects frontend performance
 * Guidelines to better page load
-* Other things. It's early.
+* TCP / SPDY details
 
 
 <div class="slides-link">[iamc.co/amsterdam](http://iamc.co/amsterdam)</div>

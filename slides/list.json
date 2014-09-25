@@ -42,7 +42,7 @@
     {
       "filename": "testing/testing.md",
       "attr": {
-          "data-state": "testing",
+          "data-state": "trek",
           "data-background": "/images/star-trek.jpg",
           "id": "testing"
       }
@@ -111,7 +111,7 @@
     {
       "filename": "tcp/houston.md",
       "attr": {
-          "data-state": "tcp",
+          "data-state": "houston",
           "data-background": "/images/apollo13.jpg",
           "id": "houston"
       }

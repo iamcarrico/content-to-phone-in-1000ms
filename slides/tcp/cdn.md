@@ -1,4 +1,4 @@
-## CDNs
+<h2>CDN<span style="text-transform: none;">s</span></h2>
 
 * We are limited by the speed of light <!-- .element: class="fragment" -->
 * Put you're content closer to the user. <!-- .element: class="fragment" -->
