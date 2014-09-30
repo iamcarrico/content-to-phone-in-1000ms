@@ -1,7 +1,5 @@
 # Getting Content to a Phone in less than 1000ms
 
-
-
 Note:
 We must get the content to the user, and we must do it fast. In a world constantly moving, getting a site loaded in under 1000ms is key to keeping users on your site, and engaged with your content. This is not a new idea, and the 1000ms barrier has been written about, presented, talked about in web circles for a while now--- but how do we actually do it?
 

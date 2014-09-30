@@ -19,6 +19,13 @@
         "data-state": "intro",
         "id": "is"
       }
+    },
+    {
+      "filename": "intro/why.md",
+      "attr": {
+        "data-state": "intro",
+        "id": "why"
+      }
     }
   ],
   [
@@ -195,6 +202,13 @@
       "attr": {
           "data-state": "casestudy",
           "id": "results"
+      }
+    },
+    {
+      "filename": "casestudy/next.md",
+      "attr": {
+          "data-state": "casestudy",
+          "id": "next"
       }
     }
   ],

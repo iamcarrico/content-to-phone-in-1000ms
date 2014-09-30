@@ -138,6 +138,14 @@ body {
   background: rgba(0, 0, 0, 0.7);
   margin-top: 31em;
 }
+.reveal .drupal {
+  background: url("/images/druplicon.png") no-repeat;
+  font-style: italic;
+  margin-top: 1em;
+  padding: .3em .3em .3em 2em;
+  background-size: contain;
+  display: inline-block;
+}
 
 .intro .reveal .controls div.navigate-left {
   border-right-color: white;

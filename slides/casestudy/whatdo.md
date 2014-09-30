@@ -2,6 +2,7 @@
 
 * Utilizes SPDY <!-- .element: class="fragment" -->
 * Has a custom CDN <!-- .element: class="fragment" -->
+  * Moved DNS to AWS Route 53  <!-- .element: class="fragment" -->
 * Inlines critical CSS on first page load <!-- .element: class="fragment" -->
 * Loads rest of CSS asynchronously <!-- .element: class="fragment" -->
 
