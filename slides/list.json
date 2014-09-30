@@ -40,7 +40,7 @@
       "filename": "guidelines/guidelines.md",
       "attr": {
           "data-state": "pirates",
-          "data-background": "/images/pirates-of-carribean.jpg",
+          "data-background": "http://iamcarrico.github.io/content-to-phone-in-1000ms/images/pirates-of-carribean.jpg",
           "id": "pirates"
       }
     }
@@ -50,7 +50,7 @@
       "filename": "testing/testing.md",
       "attr": {
           "data-state": "trek",
-          "data-background": "/images/star-trek.jpg",
+          "data-background": "http://iamcarrico.github.io/content-to-phone-in-1000ms/images/star-trek.jpg",
           "id": "testing"
       }
     },
@@ -81,7 +81,7 @@
       "filename": "render/pass.md",
       "attr": {
           "data-state": "gandalf",
-          "data-background": "/images/lotr.jpg",
+          "data-background": "http://iamcarrico.github.io/content-to-phone-in-1000ms/images/lotr.jpg",
           "id": "gandalf"
       }
     },
@@ -119,7 +119,7 @@
       "filename": "tcp/houston.md",
       "attr": {
           "data-state": "houston",
-          "data-background": "/images/apollo13.jpg",
+          "data-background": "http://iamcarrico.github.io/content-to-phone-in-1000ms/images/apollo13.jpg",
           "id": "houston"
       }
     },
