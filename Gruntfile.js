@@ -1,6 +1,7 @@
 
 (function() {
   module.exports = function(grunt) {
+
     grunt.initConfig({
       watch: {
         livereload: {
@@ -79,7 +80,7 @@
         },
         pages: {
           options: {
-            remote: 'git@github.com:iamcarrico/tips-tricks-with-sass.git',
+            remote: 'git@github.com:iamcarrico/content-to-phone-in-1000ms.git',
             branch: 'gh-pages'
           }
         }
