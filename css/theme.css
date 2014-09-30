@@ -5,8 +5,6 @@
  */
 @import url(http://iamcarrico.github.io/fonts/pt.css);
 @import url(http://iamcarrico.github.io/fonts/newcicle.css);
-@import url(http://snugug.github.io/fonts/north.css);
-@import url(http://snugug.github.io/fonts/homestead-subset.css);
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -74,8 +72,13 @@ img, video {
   height: auto;
 }
 
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 body {
-  background-color: #97e52d;
   font-family: "pt", Helvetica, Arial, sans-serif;
   font-size: 2.25em;
 }
@@ -103,7 +106,7 @@ body {
   color: inherit;
   text-decoration: none;
 }
-.reveal h1:not(.north), .reveal h2:not(.north), .reveal h3:not(.north), .reveal h4:not(.north), .reveal h5:not(.north) {
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5 {
   font-family: "New Cicle", Arial, sans-serif;
   letter-spacing: .1em;
   text-transform: uppercase;
@@ -125,13 +128,23 @@ body {
 .reveal p {
   margin-bottom: .75em;
 }
-.reveal .sass-logo {
-  max-width: 60%;
-  max-height: 60%;
-}
 .reveal .slides-link {
   font-size: 2.5em;
   margin-top: .5em;
+}
+.reveal .attribution {
+  color: white;
+  font-size: 0.4em;
+  background: rgba(0, 0, 0, 0.7);
+  margin-top: 31em;
+}
+.reveal .drupal {
+  background: url("/images/druplicon.png") no-repeat;
+  font-style: italic;
+  margin-top: 1em;
+  padding: .3em .3em .3em 2em;
+  background-size: contain;
+  display: inline-block;
 }
 
 .intro .reveal .controls div.navigate-left {
@@ -184,97 +197,100 @@ body {
 }
 
 .alert .reveal .state-background {
-  background: #c8321e;
+  background-color: #c8321e;
+}
+.guidelines .state-background, .render .state-background {
+  background-color: #97e52d;
 }
 .intro .state-background {
-  background: black;
+  background-color: black;
 }
-.sassy .state-background {
-  background: #c69;
+.testing .state-background {
+  background-color: #2f2f2f;
 }
-.rbenv .state-background {
-  background: #2f2f2f;
+.spdy .state-background {
+  background-color: #f7fafc;
 }
-.bundler .state-background {
-  background: #c6e7ec;
+.casestudy .state-background {
+  background-color: #2090b4;
 }
-.gulp .state-background {
-  background: white;
+.tcp .state-background {
+  background-color: #00944A;
 }
-.gotchas .state-background {
-  background: #fede32;
-}
-.north .state-background {
-  background: #f7fafc;
-}
-.who .state-background {
-  background: #0084B4;
+.wrap-up .state-background {
+  background-color: #EC1931;
 }
 
 [data-state="sassy"],
-[data-state="rbenv"],
+[data-state="testing"],
 [data-state="intro"],
 [data-state="alert"] {
   color: white;
 }
 
-.reveal .twitter-peeps {
-  display: inline-block;
-  padding: 0 .4em 1em;
-}
-.reveal .twitter-peeps a {
-  display: block;
+#pirates h2 {
+  color: white;
+  margin-top: 4.3em;
+  font-size: 1.9em;
+  background: rgba(0, 0, 0, 0.5);
+  padding: .3em;
 }
 
-.reveal .north--logo, .reveal .north--wordmark {
-  -webkit-font-feature-settings: "liga","dlig";
-  -moz-font-feature-settings: "liga=1, dlig=1";
-  -moz-font-feature-settings: "liga","dlig";
-  -ms-font-feature-settings: "liga","dlig";
-  -o-font-feature-settings: "liga","dlig";
-  font-feature-settings: "liga","dlig";
-  color: #11517d;
-  font-family: 'north';
-  text-transform: lowercase;
-  display: inline-block;
-  border: none;
+#testing h2 {
+  color: white;
+  margin-top: 2.9em;
 }
-.north {
-  color: #061b25;
+@media (min-width: 1100px) {
+  #testing h2 {
+    margin-top: 3.4px;
+  }
 }
-.reveal .north--title {
-  font-size: 7em;
+
+#houston h2 {
+  color: white;
+  font-size: 1.7em;
+  margin-top: 4.4em;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: .3em;
 }
-.reveal .north--logo {
-  padding-right: .16em;
-  -ms-transform: translateY(0.1194em);
-  -webkit-transform: translateY(0.1194em);
-  transform: translateY(0.1194em);
+@media (min-width: 1032px) {
+  #houston h2 {
+    margin-top: 5.4em;
+  }
 }
-.reveal .north--wordmark {
-  font-size: .75em;
-  color: #5ea9d0;
-  text-transform: uppercase;
-  position: relative;
-  text-align: left;
-  display: inline-block;
-  font-family: 'homestead-one', 'homestead-regular';
+@media (min-width: 1032px) and (min-height: 722px) {
+  #houston h2 {
+    margin-top: 6.5em;
+  }
 }
-.reveal .north--wordmark:before {
-  content: 'north';
-  text-transform: uppercase;
-  font-family: 'homestead-two', 'homestead-regular';
-  color: #559abe;
-  position: absolute;
-  left: 0;
-  top: -0.065em;
+
+.reveal .roundtrip {
+  font-size: 85%;
 }
-.reveal .north--wordmark:after {
-  content: 'north';
-  text-transform: uppercase;
-  font-family: 'homestead-three', 'homestead-regular';
-  color: #6db1d4;
-  position: absolute;
-  left: 0;
-  top: 0;
+.reveal .roundtrip .row {
+  background-color: white;
+  height: 16.66667%;
+  border-bottom: 1px grey solid;
+  border-left: 1px black solid;
+  border-right: 1px black solid;
+}
+.reveal .roundtrip .row:first-child {
+  background-color: red;
+}
+.reveal .roundtrip .row:last-child {
+  color: green;
+  background-color: #b3b3b3 !important;
+}
+.reveal .roundtrip .column {
+  width: 25%;
+  float: left;
+}
+.reveal .roundtrip .column:first-child .row {
+  background-color: grey;
+  border-bottom: black solid 1px;
+  border-left: none;
+}
+.reveal .roundtrip .column:first-child .row:first-child {
+  background-color: transparent;
+  border: 0px solid;
 }

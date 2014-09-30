@@ -1,8 +1,8 @@
 ## What is this about?
 
-* Tools need to make a better Sass Workflow
-* Gotcha's with using Sass
-* Where to find more information
+* What effects frontend performance
+* Guidelines to better page load
+* TCP / SPDY details
 
 
-<div class="slides-link">[iamc.co/tcdc-sass](http://iamc.co/tcdc-sass)</div>
+<div class="slides-link">[iamc.co/amsterdam](http://iamc.co/amsterdam)</div>
