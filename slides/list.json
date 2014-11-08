@@ -152,6 +152,13 @@
       }
     },
     {
+      "filename": "tcp/redirects.md",
+      "attr": {
+          "data-state": "tcp",
+          "id": "redirects"
+      }
+    },
+    {
       "filename": "tcp/firstpacket.md",
       "attr": {
           "data-state": "tcp",
