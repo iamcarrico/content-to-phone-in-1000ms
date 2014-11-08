@@ -7,6 +7,10 @@ Working on a Drupal site, how can we decrease bloat on a page, to get our site d
 
 This talk will go over the tech, and the basics of the TCP protocol so you understand where the lag is in presenting a web page. It will describe the modules any frontend developer can use to help in presenting their content, and frontend techniques that can be applied by advanced themes to make your site the fastest on the net.
 
+## Notes
+
+Speaker notes, and more detailed descriptions can be found in each of the slides. The system is built with [Reveal.js](http://lab.hakim.se/reveal-js/), and speaker notes can also be accessed by pressing "s" while using the slides.
+
 ## Links
 
 * [High Performance Browser Networking by Ilya Grigorik](http://chimera.labs.oreilly.com/books/1230000000545)
@@ -20,4 +24,4 @@ This talk will go over the tech, and the basics of the TCP protocol so you under
 
 ## License
 
-This content within the presentation is licensed under the Creative Commons Attribution-ShareAlike 4.0 International ([CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/)). 
+This content within the presentation is licensed under the Creative Commons Attribution-ShareAlike 4.0 International ([CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/)).
