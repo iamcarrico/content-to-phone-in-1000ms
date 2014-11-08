@@ -62,6 +62,13 @@
       }
     },
     {
+      "filename": "testing/users.md",
+      "attr": {
+          "data-state": "testing",
+          "id": "users"
+      }
+    },
+    {
       "filename": "testing/rupl.md",
       "attr": {
           "data-state": "testing",
@@ -145,6 +152,13 @@
       }
     },
     {
+      "filename": "tcp/redirects.md",
+      "attr": {
+          "data-state": "tcp",
+          "id": "redirects"
+      }
+    },
+    {
       "filename": "tcp/firstpacket.md",
       "attr": {
           "data-state": "tcp",
@@ -165,6 +179,14 @@
       "attr": {
           "data-state": "spdy",
           "id": "spdy"
+      }
+    },
+    {
+      "filename": "spdy/speed-racer.md",
+      "attr": {
+          "data-state": "speed-racer",
+          "data-background": "http://iamcarrico.github.io/content-to-phone-in-1000ms/images/speed-racer.jpg",
+          "id": "speed-racer"
       }
     },
     {
