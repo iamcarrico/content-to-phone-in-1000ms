@@ -2,7 +2,7 @@
 
 * What effects frontend performance
 * Guidelines to better page load
-* TCP / SPDY details
+* How the protocols we utilize (HTTP, TCP, SPDY) effect our sites
 
 
 ### Slides
