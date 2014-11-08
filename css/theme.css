@@ -167,7 +167,7 @@ body {
 .intro .reveal .controls div.navigate-left {
   border-right-color: white;
 }
-.gulp .reveal .controls div.navigate-left {
+.spdy .reveal .controls div.navigate-left {
   border-right-color: black;
 }
 .bundler .reveal .controls div.navigate-left {
@@ -176,10 +176,13 @@ body {
 .north .reveal .controls div.navigate-left {
   border-right-color: #061b25;
 }
+.speed-racer .reveal .controls div.navigate-left {
+  border-right-color: black;
+}
 .intro .reveal .controls div.navigate-right {
   border-left-color: white;
 }
-.gulp .reveal .controls div.navigate-right {
+.spdy .reveal .controls div.navigate-right {
   border-left-color: black;
 }
 .bundler .reveal .controls div.navigate-right {
@@ -188,10 +191,13 @@ body {
 .north .reveal .controls div.navigate-right {
   border-left-color: #061b25;
 }
+.speed-racer .reveal .controls div.navigate-right {
+  border-left-color: black;
+}
 .intro .reveal .controls div.navigate-up {
   border-bottom-color: white;
 }
-.gulp .reveal .controls div.navigate-up {
+.spdy .reveal .controls div.navigate-up {
   border-bottom-color: black;
 }
 .bundler .reveal .controls div.navigate-up {
@@ -200,10 +206,13 @@ body {
 .north .reveal .controls div.navigate-up {
   border-bottom-color: #061b25;
 }
+.speed-racer .reveal .controls div.navigate-up {
+  border-bottom-color: black;
+}
 .intro .reveal .controls div.navigate-down {
   border-top-color: white;
 }
-.gulp .reveal .controls div.navigate-down {
+.spdy .reveal .controls div.navigate-down {
   border-top-color: black;
 }
 .bundler .reveal .controls div.navigate-down {
@@ -211,6 +220,9 @@ body {
 }
 .north .reveal .controls div.navigate-down {
   border-top-color: #061b25;
+}
+.speed-racer .reveal .controls div.navigate-down {
+  border-top-color: black;
 }
 
 .alert .reveal .state-background {

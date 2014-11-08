@@ -168,9 +168,10 @@ html {
 .reveal .controls div.navigate {
   $states: (
     "intro": white,
-    "gulp": black,
+    "spdy": black,
     "bundler": black,
     "north": #061b25,
+    "speed-racer": black,
   );
 
   $dirs: (
