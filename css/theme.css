@@ -304,7 +304,8 @@ body {
   border-right: 1px black solid;
 }
 .reveal .roundtrip .row:first-child {
-  background-color: red;
+  font-weight: bold;
+  background-color: grey;
 }
 .reveal .roundtrip .row:last-child {
   color: green;
@@ -315,6 +316,7 @@ body {
   float: left;
 }
 .reveal .roundtrip .column:first-child .row {
+  font-weight: bold;
   background-color: grey;
   border-bottom: black solid 1px;
   border-left: none;

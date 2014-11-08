@@ -280,7 +280,7 @@ $roundtrip-background: white;
 $roundtrip-column: black;
 $roundtrip-row: grey;
 $roundtrip-first-col: grey;
-$roundtrip-first-row: red;
+$roundtrip-first-row: grey;
 
 // Special roundtrip section.
 .reveal .roundtrip {
@@ -296,6 +296,7 @@ $roundtrip-first-row: red;
     }
 
     &:first-child {
+      font-weight: bold;
       background-color: $roundtrip-first-row;
     }
 
@@ -310,6 +311,7 @@ $roundtrip-first-row: red;
     float: left;
 
     &:first-child .row {
+      font-weight: bold;
       background-color: $roundtrip-first-col;
       border: {
         bottom: black solid 1px;
