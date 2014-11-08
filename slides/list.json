@@ -182,6 +182,14 @@
       }
     },
     {
+      "filename": "spdy/speed-racer.md",
+      "attr": {
+          "data-state": "speed-racer",
+          "data-background": "http://iamcarrico.github.io/content-to-phone-in-1000ms/images/speed-racer.jpg",
+          "id": "speed-racer"
+      }
+    },
+    {
       "filename": "spdy/what.md",
       "attr": {
           "data-state": "spdy",

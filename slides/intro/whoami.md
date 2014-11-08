@@ -1,6 +1,6 @@
 # Ian Carrico
 
-Backend of Frontend Developer, Four Kitchens
+Frontend Architect, Four Kitchens
 
 * [iamcarrico.com](https://iamcarrico.com)
 * [drupal.org/u/iamcarrico](http://drupal.org/u/iamcarrico)
