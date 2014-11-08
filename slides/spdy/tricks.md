@@ -4,6 +4,8 @@
 * Concatenation can hurt performance <!-- .element: class="fragment" -->
 * Utilize Server.push for important assets <!-- .element: class="fragment" -->
 
+<br>
+
 <div class="drupal fragment">SPDY module is in research</div>
 
 Note:
