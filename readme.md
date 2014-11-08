@@ -10,10 +10,14 @@ This talk will go over the tech, and the basics of the TCP protocol so you under
 ## Links
 
 * [High Performance Browser Networking by Ilya Grigorik](http://chimera.labs.oreilly.com/books/1230000000545)
-* [Talk on GitHub](http://iamcarrico.github.io/content-to-phone-in-1000ms/#/)
+* [Slides on GitHub](http://iamcarrico.github.io/content-to-phone-in-1000ms/#/)
 
 
-### Given at
+## Given at
 
 * [DrupalCon Amsterdam](https://amsterdam2014.drupal.org/session/getting-content-phone-less-1000ms)
 * [BADCamp 2014](https://2014.badcamp.net/session/getting-content-phone-less-1000ms)
+
+## License
+
+This content within the presentation is licensed under the Creative Commons Attribution-ShareAlike 4.0 International ([CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/)). 
