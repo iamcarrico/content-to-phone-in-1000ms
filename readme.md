@@ -21,6 +21,7 @@ Speaker notes, and more detailed descriptions can be found in each of the slides
 
 * [DrupalCon Amsterdam](https://amsterdam2014.drupal.org/session/getting-content-phone-less-1000ms)
 * [BADCamp 2014](https://2014.badcamp.net/session/getting-content-phone-less-1000ms)
+* [DrupalCon Latin America](https://latinamerica2015.drupal.org/session/getting-content-phone-less-1000ms)
 
 ## License
 
