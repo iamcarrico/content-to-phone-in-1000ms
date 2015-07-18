@@ -168,7 +168,7 @@ html {
 .reveal .controls div.navigate {
   $states: (
     "intro": white,
-    "spdy": black,
+    "twopointoh": black,
     "bundler": black,
     "north": #061b25,
     "speed-racer": black,
@@ -211,7 +211,7 @@ html {
     background-color: #2f2f2f;
   }
 
-  .spdy & {
+  .twopointoh & {
     background-color: #f7fafc;
   }
 
