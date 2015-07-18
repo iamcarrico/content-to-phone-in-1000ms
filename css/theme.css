@@ -240,14 +240,11 @@ body {
 .spdy .state-background {
   background-color: #f7fafc;
 }
-.tcp .state-background {
-  background-color: #00944A;
-}
 .casestudy .state-background {
   background-color: #2090b4;
 }
-.responsibilty .state-background {
-  background-color: #FF9525;
+.tcp .state-background {
+  background-color: #00944A;
 }
 .wrap-up .state-background {
   background-color: #EC1931;

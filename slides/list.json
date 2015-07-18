@@ -236,29 +236,6 @@
   ],
   [
     {
-      "filename": "responsibilty/responsibilty.md",
-      "attr": {
-          "data-state": "responsibilty",
-          "id": "responsibilty"
-      }
-    },
-    {
-      "filename": "responsibilty/everyone.md",
-      "attr": {
-          "data-state": "responsibilty",
-          "id": "everyone"
-      }
-    },
-    {
-      "filename": "responsibilty/easy.md",
-      "attr": {
-          "data-state": "responsibilty",
-          "id": "easy"
-      }
-    }
-  ],
-  [
-    {
       "filename": "wrap-up/questions.md",
       "attr": {
           "data-state": "wrap-up",

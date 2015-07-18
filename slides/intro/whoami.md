@@ -1,6 +1,6 @@
 # Ian Carrico
 
-Frontend Architect, Four Kitchens
+Web Performance Artist, Vox Media
 
 * [iamcarrico.com](https://iamcarrico.com)
 * [drupal.org/u/iamcarrico](http://drupal.org/u/iamcarrico)
