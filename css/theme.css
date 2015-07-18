@@ -167,7 +167,7 @@ body {
 .intro .reveal .controls div.navigate-left {
   border-right-color: white;
 }
-.spdy .reveal .controls div.navigate-left {
+.twopointoh .reveal .controls div.navigate-left {
   border-right-color: black;
 }
 .bundler .reveal .controls div.navigate-left {
@@ -182,7 +182,7 @@ body {
 .intro .reveal .controls div.navigate-right {
   border-left-color: white;
 }
-.spdy .reveal .controls div.navigate-right {
+.twopointoh .reveal .controls div.navigate-right {
   border-left-color: black;
 }
 .bundler .reveal .controls div.navigate-right {
@@ -197,7 +197,7 @@ body {
 .intro .reveal .controls div.navigate-up {
   border-bottom-color: white;
 }
-.spdy .reveal .controls div.navigate-up {
+.twopointoh .reveal .controls div.navigate-up {
   border-bottom-color: black;
 }
 .bundler .reveal .controls div.navigate-up {
@@ -212,7 +212,7 @@ body {
 .intro .reveal .controls div.navigate-down {
   border-top-color: white;
 }
-.spdy .reveal .controls div.navigate-down {
+.twopointoh .reveal .controls div.navigate-down {
   border-top-color: black;
 }
 .bundler .reveal .controls div.navigate-down {
@@ -237,7 +237,7 @@ body {
 .testing .state-background {
   background-color: #2f2f2f;
 }
-.spdy .state-background {
+.twopointoh .state-background {
   background-color: #f7fafc;
 }
 .casestudy .state-background {

@@ -175,14 +175,14 @@
   ],
   [
     {
-      "filename": "spdy/spdy.md",
+      "filename": "twopointoh/twopointoh.md",
       "attr": {
-          "data-state": "spdy",
-          "id": "spdy"
+          "data-state": "twopointoh",
+          "id": "twopointoh"
       }
     },
     {
-      "filename": "spdy/speed-racer.md",
+      "filename": "twopointoh/speed-racer.md",
       "attr": {
           "data-state": "speed-racer",
           "data-background": "http://iamcarrico.github.io/content-to-phone-in-1000ms/images/speed-racer.jpg",
@@ -190,16 +190,16 @@
       }
     },
     {
-      "filename": "spdy/what.md",
+      "filename": "twopointoh/what.md",
       "attr": {
-          "data-state": "spdy",
-          "id": "whatisspdy"
+          "data-state": "twopointoh",
+          "id": "whatistwopointoh"
       }
     },
     {
-      "filename": "spdy/tricks.md",
+      "filename": "twopointoh/tricks.md",
       "attr": {
-          "data-state": "spdy",
+          "data-state": "twopointoh",
           "id": "tricks2pointOH"
       }
     }
